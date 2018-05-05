@@ -1,0 +1,25 @@
+{
+  "name": "passport-multi-type",
+  "version": "1.0.0",
+  "description": "Local username and password authentication strategy for Passport.",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicahChiu/passport-multi-type.git"
+  },
+  "keywords": [
+    "passport"
+  ],
+  "author": "MicahChiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MicahChiu/passport-multi-type/issues"
+  },
+  "homepage": "https://github.com/MicahChiu/passport-multi-type#readme",
+  "dependencies": {
+    "passport-strategy": "^1.0.0"
+  }
+}
